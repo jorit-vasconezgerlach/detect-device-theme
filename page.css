@@ -20,7 +20,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
     body {
-    color: #FFFFFF;
+        color: #FFFFFF;
         background: #000000;
     }
 }
