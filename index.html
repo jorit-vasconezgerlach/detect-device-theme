@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- SEO -->
+    <title>Detect Device Theme/</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="page.css">
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Just Displays the text [start] -->
+    <p></p>
+    <script>
+        const txt = document.getElementsByTagName('p')[0];
+        if(document.body.style.background="#000000") {
+            txt.innerHTML = "Dark Theme";
+        } else {
+            txt.innerHTML = "Light Theme";
+        }
+    </script>
+    <!-- Just Displays the text [end] -->
+</body>
+</html>
